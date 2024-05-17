@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Social links profile</title>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: hsl(0, 0%, 8%);
+      color: hsl(0, 0%, 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background-color: hsl(0, 0%, 12%);
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+      text-align: center;
+      max-width: 350px;
+    }
+
+    .avatar {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 0.875rem;
+      color: hsl(75, 94%, 57%);
+      margin-bottom: 1.5rem;
+    }
+
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .social-link {
+      background-color: hsl(0, 0%, 20%);
+      color: hsl(0, 0%, 100%);
+      text-decoration: none;
+      padding: 0.75rem;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+
+    .social-link:hover {
+      background-color: hsl(75, 94%, 57%);
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      .card {
+        width: 100%;
+        /* Set width to 100% for smaller screens */
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <img class="avatar" src="avatar-pritesh.png" alt="Profile Picture">
+    <h1>Pritesh Dhandhukia</h1>
+    <p>Silvassa, India</p>
+    <p>"Front-end developer and graphic designer."</p>
+    <div class="social-links">
+      <a href="https://github.com/pritxxh" class="social-link" target="_blank">GitHub</a>
+      <a href="https://www.frontendmentor.io/profile/pritxxh" class="social-link" target="_blank">Frontend Mentor</a>
+      <a href="https://www.linkedin.com/in/pritxxh/" class="social-link" target="_blank">LinkedIn</a>
+      <a href="https://x.com/priteshhyaaar" class="social-link" target="_blank">Twitter</a>
+      <a href="https://www.instagram.com/pri1esh/" class="social-link" target="_blank">Instagram</a>
+
+    </div>
+  </div>
+</body>
+
+</html>
